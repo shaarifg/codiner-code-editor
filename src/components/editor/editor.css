@@ -1,0 +1,30 @@
+.CodeMirror {
+    line-height: 1.5;
+    font-size: 20px;
+    padding: .7rem;
+    width: 100vw !important;
+    overflow: hidden; 
+    height: 68vh !important; 
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.custom-select{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: center;
+}
+.select-selected{
+    padding: .3rem;
+    background-color: #010311;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    border: 1px solid rgb(96, 115, 255);
+    font-weight: 500;
+    outline: none;
+}
+select>option{
+    background-color: #02051f;
+    
+}

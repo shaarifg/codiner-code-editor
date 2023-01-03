@@ -1,0 +1,71 @@
+.mainWrap {
+    display: grid;
+    /* grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));   */
+    grid-template-rows: 1fr, 3fr;
+}
+.top{
+    background: #010311;
+    color: #fff;
+    display: flex;
+    gap:20px;
+    padding: 1rem;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:80px;
+    gap: 10px;
+    font-size: small;
+    font-family: 'Rubik', sans-serif;
+}
+a{
+    color: rgb(250, 32, 32);
+}
+aside>img{
+    width: 100%;
+    height: 80px;
+    border-radius: 50%;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;    
+}
+
+.topInner {
+    display: flex;
+    gap: 20px;
+}
+.topInner>img{
+    margin-left: 0;
+    width: 80px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    gap:14px;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px; 
+}
+
+/* ===class from CLIENT COMPONENTS */
+.userName{
+    margin-top: 10px;
+}
+/* 
+.copyBtn{
+    background: var(--btn-background-variant);
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+.leaveBtn{
+    background: var(--btn-background-primary);
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+} */

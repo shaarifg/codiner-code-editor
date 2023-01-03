@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; 
+}
+body{
+  background:#010311;
+  font-family: 'Rubik', sans-serif;
+}
+:root{
+  --btn-background-variant:#1DA1F2;
+  --btn-background-primary:	#e64100;
+}
+
+/* =========== */
+/* .btn {
+  border: none;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background: var(--btn-background-variant); 
+} */
